@@ -65,7 +65,7 @@ La simulación produce los siguientes datos:
 ## Requisitos del Sistema
 
 - CUDA Toolkit 12.0 o superior
-- Visual Studio 2022 con soporte para C++17
+- Visual Studio 2022 con soporte para C++14
 - GPU compatible con CUDA
 
 ## Uso
