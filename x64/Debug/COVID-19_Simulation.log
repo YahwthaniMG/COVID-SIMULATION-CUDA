@@ -1,0 +1,23 @@
+﻿  Compiling CUDA source file main.cu...
+  Compiling CUDA source file rules.cu...
+  Compiling CUDA source file simulation.cu...
+  
+  C:\Users\moral\source\repos\COVID-19_Simulation\COVID-19_Simulation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\moral\source\repos\COVID-19_Simulation\COVID-19_Simulation\x64\Debug\main.cu.obj "C:\Users\moral\source\repos\COVID-19_Simulation\COVID-19_Simulation\main.cu" 
+  
+  C:\Users\moral\source\repos\COVID-19_Simulation\COVID-19_Simulation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\moral\source\repos\COVID-19_Simulation\COVID-19_Simulation\x64\Debug\rules.cu.obj "C:\Users\moral\source\repos\COVID-19_Simulation\COVID-19_Simulation\rules.cu" 
+  
+  C:\Users\moral\source\repos\COVID-19_Simulation\COVID-19_Simulation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\moral\source\repos\COVID-19_Simulation\COVID-19_Simulation\x64\Debug\simulation.cu.obj "C:\Users\moral\source\repos\COVID-19_Simulation\COVID-19_Simulation\simulation.cu" 
+C:\Users\moral\source\repos\COVID-19_Simulation\COVID-19_Simulation\simulation.cu(180): warning #177-D: variable "recovered" was declared but never referenced
+        int recovered = 0;        
+            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  main.cu
+  simulation.cu
+  rules.cu
+  tmpxft_00006d78_00000000-7_main.cudafe1.cpp
+  tmpxft_0000401c_00000000-7_rules.cudafe1.cpp
+  tmpxft_00001a14_00000000-7_simulation.cudafe1.cpp
+C:\Users\moral\source\repos\COVID-19_Simulation\COVID-19_Simulation\simulation.cu(303): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  COVID-19_Simulation.vcxproj -> C:\Users\moral\source\repos\COVID-19_Simulation\x64\Debug\COVID-19_Simulation.exe
